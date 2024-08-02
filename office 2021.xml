@@ -1,0 +1,17 @@
+<Configuration ID="ddd1d456-ccb6-4a55-9a39-2572650f5678">
+  <Add OfficeClientEdition="64" Channel="PerpetualVL2021">
+    <Product ID="ProPlus2021Volume" PIDKEY="FXYTK-NJJ8C-GB6DW-3DYQT-6F7TH">
+      <ExcludeApp ID="Teams" />
+    </Product>
+    <Product ID="LanguagePack">
+  <Language ID="ru-ru" />    
+  <Language ID="en-us" />
+    </Product>
+  </Add>
+  <Property Name="SharedComputerLicensing" Value="0" />
+  <Property Name="FORCEAPPSHUTDOWN" Value="FALSE" />
+  <Property Name="AUTOACTIVATE" Value="1" />
+  <RemoveMSI />
+  <Remove All="True" />
+  <Display Level="Full" AcceptEULA="TRUE" />
+</Configuration>
